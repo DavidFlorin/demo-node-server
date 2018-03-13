@@ -1,0 +1,35 @@
+{
+  "name": "demo-node-server",
+  "version": "1.0.0",
+  "description": "Demo node server with basic authentication and mongodb connection",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidFlorin/demo-node-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidFlorin/demo-node-server/issues"
+  },
+  "homepage": "https://github.com/DavidFlorin/demo-node-server#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "chalk": "^2.3.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "ip": "^1.1.5",
+    "mongoose": "^5.0.10",
+    "parse-keys": "^1.3.0",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}

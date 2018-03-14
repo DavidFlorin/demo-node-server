@@ -8,8 +8,6 @@ const Promise = require('bluebird');
 const bcryptjs = require('bcryptjs');
 const mongoose = require('mongoose');
 
-import env from '../config/env'
-
 const Schema = mongoose.Schema;
 const SALT_WORK_FACTOR = 10;
 
